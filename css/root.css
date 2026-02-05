@@ -39,7 +39,7 @@ button {
 
 @font-face {
     font-family: "CursorGothic";
-    src: url("/assets/fonts/CursorGothic-Regular.woff2");
+    src: url("../assets/fonts/CursorGothic-Regular.woff2");
 }
 
 body {
