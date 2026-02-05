@@ -34,6 +34,10 @@
     border-radius: 1.5rem;
 
     gap: 0.5rem;
+
+    &:hover {
+        background-color: var(--color-fg-02);
+    }
 }
 
 #hero > #heading > button > img {
