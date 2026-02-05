@@ -16,12 +16,13 @@
         />
         <link rel="stylesheet" href="./css/root.css" />
         <link rel="stylesheet" href="./css/nav.css" />
+        <link rel="stylesheet" href="./css/hero.css" />
     </head>
     <body>
         <header>
             <nav>
                 <div id="nav-left">
-                    <img src="./assets/images/logo.svg" alt="Cursor logo" />
+                    <img src="./assets/images/logo.svg" alt="Cursor Logo" />
                 </div>
 
                 <div id="nav-center">
@@ -42,5 +43,30 @@
                 </div>
             </nav>
         </header>
+
+        <main>
+            <section id="hero">
+                <div id="heading">
+                    <h1>
+                        Built to make you extraordinarily productive,<br />
+                        Cursor is the best way to code with AI.
+                    </h1>
+
+                    <button>
+                        Download for Linux
+                        <img src="./assets/icons/download.svg" alt="Download" />
+                    </button>
+                </div>
+
+                <video
+                    src="./assets/videos/hero.mp4"
+                    autoplay
+                    loop
+                    playsinline
+                    preload="auto"
+                    poster="./assets/images/hero-fallback.png"
+                ></video>
+            </section>
+        </main>
     </body>
 </html>
