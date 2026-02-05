@@ -1,0 +1,86 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.75rem 1rem;
+}
+
+nav > #nav-left > img {
+    width: 95px;
+}
+
+nav > #nav-center {
+    display: none;
+}
+
+nav > #nav-center > ul {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav > #nav-center > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+
+    font-size: 0.875rem;
+}
+
+nav > #nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav > #nav-right > button#sign-in {
+    color: var(--color-fg);
+
+    border: 1px solid color-mix(in oklab, var(--color-fg) 20%, transparent);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.9rem;
+
+    font-size: 0.875rem;
+
+    &:hover {
+        background-color: var(--color-card-hex);
+    }
+}
+
+nav > #nav-right > button#download {
+    background-color: var(--color-fg);
+    color: var(--color-bg);
+
+    padding: 0.35rem 0.75rem;
+    border-radius: 0.9rem;
+
+    font-size: 0.875rem;
+
+    display: none;
+}
+
+nav > #nav-right > button#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 900px) {
+    nav > #nav-center {
+        display: block;
+    }
+
+    nav > #nav-right > button#menu {
+        display: none;
+    }
+}
+
+@media (min-width: 420px) {
+    nav > #nav-right > button#download {
+        display: inline-block;
+    }
+}

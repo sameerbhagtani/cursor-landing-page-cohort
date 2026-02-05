@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+:root {
+    --color-bg: #14120b;
+    --color-fg: #edecec;
+    --color-fg-02: #d7d6d5;
+
+    --color-card-hex: #1b1913;
+    --color-card-rgb: 27 29 39;
+    --color-card-01-hex: #1d1b15;
+    --color-card-02-hex: #201e18;
+    --color-card-03-hex: #26241e;
+    --color-card-04-hex: #2b2923;
+    --color-card-hover-hex: #201e18;
+    --color-card-hover-light-hex: #1d1b15;
+    --color-card-warm-hex: #1c1713;
+}
+
+@font-face {
+    font-family: "CursorGothic";
+    src: url("/assets/fonts/CursorGothic-Regular.woff2");
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: "CursorGothic";
+}
