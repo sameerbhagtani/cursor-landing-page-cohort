@@ -1,0 +1,84 @@
+section#testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    padding-block: 3rem;
+}
+
+section#testimonials > h2 {
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+section#testimonials > #card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+section#testimonials > #card-container > .card {
+    background-color: var(--color-card-hex);
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+section#testimonials > #card-container > .card:nth-last-child(-n + 3) {
+    display: none;
+}
+
+section#testimonials > #card-container > .card > .person-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-top: auto;
+}
+
+section#testimonials > #card-container > .card > .person-info > img {
+    height: 2.5rem;
+    border-radius: 0.25rem;
+}
+
+section#testimonials > #card-container > .card > .person-info > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+
+    font-size: 0.875rem;
+}
+
+section#testimonials
+    > #card-container
+    > .card
+    > .person-info
+    > div
+    > span:nth-child(2) {
+    color: color-mix(in oklab, var(--color-fg) 60%, transparent);
+}
+
+@media (min-width: 660px) {
+    section#testimonials > #card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section#testimonials > #card-container > .card:nth-last-child(-n + 3) {
+        display: flex;
+    }
+}
+
+@media (min-width: 900px) {
+    section#testimonials > #card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

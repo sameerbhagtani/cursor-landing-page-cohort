@@ -5,7 +5,7 @@ section#brands {
     align-items: center;
 
     gap: 2rem;
-    padding-bottom: 2rem;
+    padding-block: 3rem;
 }
 
 section#brands > h2 {
@@ -38,7 +38,6 @@ section#brands > #logos > div {
 section#brands > #logos > div > img {
     height: 2rem;
     width: auto;
-    object-fit: contain;
 }
 
 @media (min-width: 420px) {

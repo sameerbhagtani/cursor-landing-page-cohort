@@ -5,7 +5,7 @@ section#hero {
     align-items: start;
     gap: 5rem;
 
-    padding-block: 5rem;
+    padding-block: 3rem;
 }
 
 section#hero > #heading {
