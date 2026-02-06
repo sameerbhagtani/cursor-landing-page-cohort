@@ -1,0 +1,62 @@
+section#frontier {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+    padding-block: 3rem;
+}
+
+section#frontier > h2 {
+    font-size: 1.625rem;
+}
+
+section#frontier > #frontier-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+section#frontier > #frontier-card-container > .card {
+    background-color: var(--color-card-hex);
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+section#frontier > #frontier-card-container > .card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section#frontier > #frontier-card-container > .card > div > p {
+    color: color-mix(in oklab, var(--color-fg) 60%, transparent);
+}
+
+section#frontier > #frontier-card-container > .card > div > a {
+    color: var(--color-accent);
+    font-size: 1rem;
+
+    &:hover {
+        color: color-mix(in oklab, var(--color-accent) 75%, transparent);
+    }
+}
+
+section#frontier > #frontier-card-container > .card > video,
+section#frontier > #frontier-card-container > .card > img {
+    width: 100%;
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 1140px) {
+    section#frontier > #frontier-card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

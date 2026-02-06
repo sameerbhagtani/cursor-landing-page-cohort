@@ -13,13 +13,13 @@ section#testimonials > h2 {
     text-align: center;
 }
 
-section#testimonials > #card-container {
+section#testimonials > #testimonials-card-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.5rem;
 }
 
-section#testimonials > #card-container > .card {
+section#testimonials > #testimonials-card-container > .card {
     background-color: var(--color-card-hex);
     border-radius: 0.25rem;
     padding: 1rem;
@@ -31,11 +31,13 @@ section#testimonials > #card-container > .card {
     gap: 3rem;
 }
 
-section#testimonials > #card-container > .card:nth-last-child(-n + 3) {
+section#testimonials
+    > #testimonials-card-container
+    > .card:nth-last-child(-n + 3) {
     display: none;
 }
 
-section#testimonials > #card-container > .card > .person-info {
+section#testimonials > #testimonials-card-container > .card > .person-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,12 +46,20 @@ section#testimonials > #card-container > .card > .person-info {
     margin-top: auto;
 }
 
-section#testimonials > #card-container > .card > .person-info > img {
+section#testimonials
+    > #testimonials-card-container
+    > .card
+    > .person-info
+    > img {
     height: 2.5rem;
     border-radius: 0.25rem;
 }
 
-section#testimonials > #card-container > .card > .person-info > div {
+section#testimonials
+    > #testimonials-card-container
+    > .card
+    > .person-info
+    > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +69,7 @@ section#testimonials > #card-container > .card > .person-info > div {
 }
 
 section#testimonials
-    > #card-container
+    > #testimonials-card-container
     > .card
     > .person-info
     > div
@@ -68,17 +78,19 @@ section#testimonials
 }
 
 @media (min-width: 660px) {
-    section#testimonials > #card-container {
+    section#testimonials > #testimonials-card-container {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    section#testimonials > #card-container > .card:nth-last-child(-n + 3) {
+    section#testimonials
+        > #testimonials-card-container
+        > .card:nth-last-child(-n + 3) {
         display: flex;
     }
 }
 
 @media (min-width: 900px) {
-    section#testimonials > #card-container {
+    section#testimonials > #testimonials-card-container {
         grid-template-columns: repeat(3, 1fr);
     }
 }
