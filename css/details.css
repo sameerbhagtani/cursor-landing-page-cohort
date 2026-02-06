@@ -1,0 +1,76 @@
+section#details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+    padding-block: 3rem;
+}
+
+section#details > article {
+    width: 100%;
+    background-color: var(--color-card-hex);
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+section#details > article > .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 0.5rem;
+}
+
+section#details > article > .content > h3 {
+    font-size: 1rem;
+    text-wrap: pretty;
+}
+
+section#details > article > .content > p {
+    color: color-mix(in oklab, var(--color-fg) 60%, transparent);
+    font-size: 1rem;
+    text-wrap: pretty;
+}
+
+section#details > article > .content > a {
+    color: var(--color-accent);
+    font-size: 1rem;
+
+    &:hover {
+        color: color-mix(in oklab, var(--color-accent) 75%, transparent);
+    }
+}
+
+section#details > article > .visual > video,
+section#details > article > .visual > img {
+    width: 100%;
+    border-radius: 0.25rem;
+    background-color: var(--color-card-hex);
+}
+
+@media (min-width: 660px) {
+    section#details > article > .content > h3,
+    section#details > article > .content > p {
+        font-size: 1.375rem;
+    }
+}
+
+@media (min-width: 900px) {
+    section#details > article {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section#details > article:nth-of-type(2n) {
+        flex-direction: row-reverse;
+    }
+}

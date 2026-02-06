@@ -1,4 +1,4 @@
-#hero {
+section#hero {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     padding-block: 5rem;
 }
 
-#hero > #heading {
+section#hero > #heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,12 +17,12 @@
     gap: 1.5rem;
 }
 
-#hero > #heading > h1 {
+section#hero > #heading > h1 {
     font-size: 1.625rem;
     text-wrap: balance;
 }
 
-#hero > #heading > button {
+section#hero > #heading > button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,11 +40,11 @@
     }
 }
 
-#hero > #heading > button > img {
+section#hero > #heading > button > img {
     width: 18px;
 }
 
-#hero > video {
+section#hero > video {
     width: 100%;
     border-radius: 0.25rem;
 }
