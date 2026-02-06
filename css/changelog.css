@@ -5,6 +5,10 @@ section#changelog {
     gap: 3rem;
 
     padding-block: 3rem;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-inline: 1rem;
 }
 
 section#changelog > h2 {
@@ -27,6 +31,11 @@ section#changelog > #changelog-card-container > .card {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
+
+    &:hover {
+        cursor: pointer;
+        background-color: var(--color-card-hover-hex);
+    }
 }
 
 section#changelog > #changelog-card-container > .card > div {

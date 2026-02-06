@@ -6,6 +6,10 @@ section#brands {
 
     gap: 2rem;
     padding-block: 3rem;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-inline: 1rem;
 }
 
 section#brands > h2 {

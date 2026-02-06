@@ -1,0 +1,58 @@
+section#team {
+    padding-block: 3rem;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-inline: 1rem;
+}
+
+section#team > #team-card {
+    background-color: var(--color-card-hex);
+    border-radius: 0.25rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+section#team > #team-card > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+section#team > #team-card > div > a {
+    color: var(--color-accent);
+    font-size: 1rem;
+
+    &:hover {
+        color: color-mix(in oklab, var(--color-accent) 75%, transparent);
+    }
+}
+
+section#team > #team-card > img {
+    width: 100%;
+}
+
+@media (min-width: 660px) {
+    section#team > #team-card > div > h3 {
+        font-size: 1.375rem;
+    }
+}
+
+@media (min-width: 900px) {
+    section#team > #team-card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    section#team > #team-card > div,
+    section#team > #team-card > img {
+        flex: 1;
+        width: 50%;
+    }
+}

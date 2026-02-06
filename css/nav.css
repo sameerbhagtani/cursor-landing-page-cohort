@@ -4,6 +4,10 @@ header {
     z-index: 10;
 
     background-color: var(--color-bg);
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-inline: 1rem;
 }
 
 nav {
