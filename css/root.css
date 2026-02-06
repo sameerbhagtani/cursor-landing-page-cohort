@@ -37,6 +37,8 @@ a:hover {
     --color-fg-02: #d7d6d5;
     --color-accent: #f54e00;
 
+    --color-text-sec: color-mix(in oklab, var(--color-fg) 60%, transparent);
+
     --color-card-hex: #1b1913;
     --color-card-rgb: 27 29 39;
     --color-card-01-hex: #1d1b15;

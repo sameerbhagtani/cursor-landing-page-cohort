@@ -4,7 +4,7 @@ section#changelog {
     justify-content: center;
     gap: 3rem;
 
-    padding-block: 3rem;
+    padding-block: 5rem;
 
     max-width: 1300px;
     margin: 0 auto;
@@ -52,11 +52,11 @@ section#changelog > #changelog-card-container > .card > div > .badge {
 
     padding: 0.25rem 0.75rem;
 
-    color: color-mix(in oklab, var(--color-fg) 60%, transparent);
+    color: var(--color-text-sec);
 }
 
 section#changelog > #changelog-card-container > .card > div > time {
-    color: color-mix(in oklab, var(--color-fg) 60%, transparent);
+    color: var(--color-text-sec);
 }
 
 section#changelog > a {

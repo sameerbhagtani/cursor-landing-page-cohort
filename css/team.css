@@ -1,5 +1,5 @@
 section#team {
-    padding-block: 3rem;
+    padding-block: 5rem;
 
     max-width: 1300px;
     margin: 0 auto;
@@ -36,6 +36,7 @@ section#team > #team-card > div > a {
 
 section#team > #team-card > img {
     width: 100%;
+    border-radius: 0.25rem;
 }
 
 @media (min-width: 660px) {

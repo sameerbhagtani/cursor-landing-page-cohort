@@ -4,7 +4,7 @@ section#details {
     justify-content: center;
     align-items: center;
 
-    gap: 2rem;
+    gap: 3rem;
     padding-block: 3rem;
 
     max-width: 1300px;
@@ -39,7 +39,7 @@ section#details > article > .content > h3 {
 }
 
 section#details > article > .content > p {
-    color: color-mix(in oklab, var(--color-fg) 60%, transparent);
+    color: var(--color-text-sec);
     font-size: 1rem;
     text-wrap: pretty;
 }

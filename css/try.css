@@ -1,9 +1,9 @@
-section#hero {
+section#try {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    gap: 5rem;
+    align-items: center;
+    gap: 2rem;
 
     padding-block: 5rem;
 
@@ -12,21 +12,12 @@ section#hero {
     padding-inline: 1rem;
 }
 
-section#hero > #heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-
-    gap: 1.5rem;
+section#try > h2 {
+    font-size: 3.25rem;
+    text-align: center;
 }
 
-section#hero > #heading > h1 {
-    font-size: 1.625rem;
-    text-wrap: balance;
-}
-
-section#hero > #heading > button {
+section#try > button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,11 +35,12 @@ section#hero > #heading > button {
     }
 }
 
-section#hero > #heading > button > img {
+section#try > button > img {
     width: 18px;
 }
 
-section#hero > video {
-    width: 100%;
-    border-radius: 0.25rem;
+@media (min-width: 420px) {
+    section#try > h2 {
+        font-size: 4.5rem;
+    }
 }
