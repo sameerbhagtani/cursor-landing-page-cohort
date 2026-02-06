@@ -5,7 +5,7 @@
     align-items: start;
     gap: 5rem;
 
-    padding: 5rem 1rem;
+    padding-block: 5rem;
 }
 
 #hero > #heading {

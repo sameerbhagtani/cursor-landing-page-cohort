@@ -11,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0.75rem 1rem;
+    padding-block: 0.75rem;
 }
 
 nav > #nav-left > a {
@@ -38,8 +38,6 @@ nav > #nav-center > ul {
 }
 
 nav > #nav-center > ul > li > a {
-    color: inherit;
-    text-decoration: none;
     font-size: 0.875rem;
 
     &:hover {
@@ -91,6 +89,12 @@ nav > #nav-right > button#menu {
     align-items: center;
 }
 
+@media (min-width: 420px) {
+    nav > #nav-right > button#download {
+        display: inline-block;
+    }
+}
+
 @media (min-width: 900px) {
     nav > #nav-center {
         display: block;
@@ -98,11 +102,5 @@ nav > #nav-right > button#menu {
 
     nav > #nav-right > button#menu {
         display: none;
-    }
-}
-
-@media (min-width: 420px) {
-    nav > #nav-right > button#download {
-        display: inline-block;
     }
 }
