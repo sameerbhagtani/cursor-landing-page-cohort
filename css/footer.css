@@ -1,0 +1,110 @@
+footer {
+    background-color: var(--color-card-hex);
+    margin-top: 5rem;
+
+    font-size: 0.875rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-inline: 1rem;
+    padding-block: 3rem;
+}
+
+footer > div > #footer-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+footer > div > #footer-links > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer > div > #footer-links > ul > li {
+    list-style-type: none;
+}
+
+footer > div > #footer-links > ul > li:first-child {
+    color: var(--color-text-sec);
+}
+
+footer > div > #footer-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+footer > div > #footer-bottom img {
+    width: 15px;
+}
+
+footer > div > #footer-bottom > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer > div > #footer-bottom > #footer-bottom-first > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: var(--color-text-sec);
+    cursor: pointer;
+}
+
+footer > div > #footer-bottom > #footer-bottom-second > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div > #footer-bottom > #footer-bottom-second > div > button {
+    background-color: var(--color-card-03-hex);
+    padding: 0.5rem 1rem;
+
+    &:first-child {
+        background-color: color-mix(in oklab, var(--color-fg) 10%, transparent);
+        border-radius: 2rem 0 0 2rem;
+    }
+
+    &:last-child {
+        border-radius: 0 2rem 2rem 0;
+    }
+}
+
+footer > div > #footer-bottom > #footer-bottom-second > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    background-color: var(--color-card-03-hex);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+}
+
+@media (min-width: 660px) {
+    footer > div > #footer-links {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    footer > div > #footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
