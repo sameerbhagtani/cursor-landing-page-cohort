@@ -22,14 +22,9 @@ git clone [https://github.com/sameerbhagtani/cursor-clone-cohort](https://github
 - **Full Responsiveness:** Designed a fluid layout that ensures a seamless user experience across all screen sizes, from mobile to ultra-wide desktops.
 - **Modern CSS:** Utilized advanced spacing and alignment techniques to mirror the professional dev-tool aesthetic.
 - **Semantic HTML5:** Structured with meaningful elements including `<nav>`, `<header>`, `<main>`, `<section>`, `<article>`, `<time>`, and `<footer>`.
+- **Document Optimization:** Configured essential metadata, including descriptive `<title>` tags, SEO-friendly `<meta>` descriptions, and a custom brand favicon.
 - **Asset Optimization:** Integrated brand-specific assets and SVGs for crisp, high-performance rendering.
 
-## Screenshots
+## Live Demo
 
-![Screenshot 1](./screenshots/1.png)
-![Screenshot 2](./screenshots/2.png)
-![Screenshot 3](./screenshots/3.png)
-![Screenshot 4](./screenshots/4.png)
-![Screenshot 5](./screenshots/5.png)
-![Screenshot 6](./screenshots/6.png)
-![Screenshot 7](./screenshots/7.png)
+https://github.com/user-attachments/assets/64917e62-3932-4c45-8ecb-617b41b276e9
