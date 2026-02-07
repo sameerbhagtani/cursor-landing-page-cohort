@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository contains a high-fidelity recreation of the [Cursor](https://cursor.com) landing page, focusing on desktop-first structural accuracy and visual hierarchy. It was developed as an assignment for the ChaiCode Web Development Cohort 2026.
+This repository contains a high-fidelity recreation of the [Cursor](https://cursor.com) landing page, focusing on structural accuracy and visual hierarchy. It was developed as an assignment for the ChaiCode Web Development Cohort 2026.
 
 This project is part of my [ChaiCode Web Dev Cohort 2026 Archive](https://github.com/sameerbhagtani/web-dev-cohort-2026). Checkout my entire journey there!
 
