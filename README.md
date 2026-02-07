@@ -19,7 +19,7 @@ git clone [https://github.com/sameerbhagtani/cursor-clone-cohort](https://github
 ## Technical Features
 
 - **Visual Fidelity:** Meticulous recreation of Cursor’s layout, typography, and color palette for maximum accuracy.
-- **Full Responsiveness:** Extended the desktop-first requirement with custom media queries for all screen sizes.
+- **Full Responsiveness:** Designed a fluid layout that ensures a seamless user experience across all screen sizes, from mobile to ultra-wide desktops.
 - **Modern CSS:** Utilized advanced spacing and alignment techniques to mirror the professional dev-tool aesthetic.
 - **Semantic HTML5:** Structured with meaningful elements including `<nav>`, `<header>`, `<main>`, `<section>`, `<article>`, `<time>`, and `<footer>`.
 - **Asset Optimization:** Integrated brand-specific assets and SVGs for crisp, high-performance rendering.
@@ -32,3 +32,4 @@ git clone [https://github.com/sameerbhagtani/cursor-clone-cohort](https://github
 ![Screenshot 4](./screenshots/4.png)
 ![Screenshot 5](./screenshots/5.png)
 ![Screenshot 6](./screenshots/6.png)
+![Screenshot 7](./screenshots/7.png)
