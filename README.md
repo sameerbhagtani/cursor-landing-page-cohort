@@ -8,12 +8,12 @@ This project is part of my [ChaiCode Web Dev Cohort 2026 Archive](https://github
 
 ## Accessing the Project
 
-Check out the live version of this website at: https://sameerbhagtani.github.io/cursor-landing-page-cohort/
+Check out the live version of this website at: https://sameerbhagtani.github.io/cursor-landing-page-cohort
 
 To clone the repository locally, execute the following command:
 
 ```bash
-git clone [https://github.com/sameerbhagtani/cursor-clone-cohort](https://github.com/sameerbhagtani/cursor-landing-page-cohort)
+git clone https://github.com/sameerbhagtani/cursor-landing-page-cohort
 ```
 
 ## Technical Features
